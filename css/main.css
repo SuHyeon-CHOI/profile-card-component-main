@@ -1,0 +1,87 @@
+
+body {
+  background-color: rgb(79, 190, 207);
+  margin: 0;
+  z-index: 1;
+  position: relative;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.bgimg {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/bg-pattern-top.svg) no-repeat top 100% left -120%, url(../images/bg-pattern-bottom.svg) no-repeat top -50% right -120% ;
+  /* z-index: 2; */
+}
+
+.grid {
+  background-color: white;
+  width: 25%;
+  height: 50%;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  border: 5px solid white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  background: url(../images/bg-pattern-card.svg);
+  border-radius: 10px 10px 0 0;
+  height: 30%;
+}
+
+.username {
+  margin-top: 17%;
+  text-align: center;
+}
+
+.username span {
+  font-weight: 90;
+  color: rgb(176, 176, 176);
+  margin-left: 10px;
+}
+
+.username p {
+  margin-top: 30px;
+  color:  rgb(176, 176, 176);
+}
+
+.username hr {
+  border-width: thin;
+  border-color: gray;
+}
+
+.profileStats {
+  display: inline-block;
+  padding: 0;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.followers,.likes,.photos {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0 25px;
+}
+
+.followers span,.likes span,.photos span{
+  font-weight: 400;
+  color: gray;
+  font-size: 0.7em;
+}
+
+.attribution {
+  text-align: center;
+}
